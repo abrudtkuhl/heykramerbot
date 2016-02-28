@@ -1,0 +1,7 @@
+{
+  "name": "Hey Kramer Bot",
+  "description": "Hey Kramer Slack bot with a WordPress backend",
+  "repository": "https://github.com/abrudtkuhl/heykramerbot",
+  "keywords": ["node", "slack"],
+  "image": "heroku/nodejs"
+}

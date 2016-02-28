@@ -1,8 +1,15 @@
 'use strict';
 
-var messages = [
-    'GIDDYUP'
-];
+var WP = require( 'wordpress-rest-api' );
+var wp = new WP({ endpoint: 'http://heykramer:8888/wp-json' });
+var messages;
+wp.posts().get(function( err, data ) {
+    if ( err ) {
+        console.log("nothing there");
+    }
+    messages = data;
+    console.log(messages);
+});
 
 var Bot = require('slackbots');
 var token = process.env.BOT_API_KEY;

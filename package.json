@@ -4,7 +4,10 @@
   "description": "Hey Kramer Slack Bot",
   "main": "kramerbot.js",
   "scripts": {
-    "start": "node kramerbot.js"
+    "start": "node bot.js"
+  },
+  "bin": {
+    "kramerbot": "kramerbot.js"
   },
   "dependencies": {
     "slackbots": "^0.5.1",

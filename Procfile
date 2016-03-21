@@ -1,1 +1,1 @@
-worker: node kramerbot.js
+worker: node bot.js

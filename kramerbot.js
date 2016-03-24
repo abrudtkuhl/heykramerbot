@@ -14,7 +14,7 @@ var WP = require( 'wordpress-rest-api' );
  * @param {object} settings
  * @constructor
  *
- * @author Luciano Mammino <lucianomammino@gmail.com>
+ * @author Andy Brudtkuhl <abrudtkuhl@gmail.com>
  */
 var KramerBot = function Constructor(settings) {
     this.settings = settings;
